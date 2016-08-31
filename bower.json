@@ -1,0 +1,35 @@
+{
+  "name": "ionic-circular-menu",
+  "authors": [
+    "ManishMittal"
+  ],
+  "description": "Circular menu for ionic platform",
+  "main": ["src/js/circular-menu.js/",
+  "src/scss/menu.scss","src/scss/ionic-icon.scss"
+  ],
+  "moduleType": [   
+    "node"
+  ],
+  "keywords": [
+    "ionic",
+    "circular",
+    "menu",
+    "ionic-circular-menu",
+    "ionic-circular-menu"
+  ],
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/ManishMittal/ionic-circular-menu.git"
+  },  
+  "license": "MIT",
+  "homepage": "https://github.com/ManishMittal/ionic-circular-menu",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ]
+}
