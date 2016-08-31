@@ -55,7 +55,7 @@ For this to work the following conditions must apply:
 *If image will be present icon tag does not show ,otherwise icon will be load by default.
 Add the below directive to your template file. 
 ```
-<circle funhandler="menuHander(data);" config="circularMenuConfig"></circle>
+<circle menuFunHandler="menuHander(data);" config="circularMenuConfig"></circle>
 ```
 #### Config
 * __status__: Menu open or close status [true/false]

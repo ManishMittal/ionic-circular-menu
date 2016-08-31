@@ -11,21 +11,7 @@ angular.module('ionic-circular-menu', [])
       controller:function($scope,$http)
       {
            
-          /*$scope.speedDialConfig =$scope.speedDialConfig||{
-          status:true,  
-          submenus:[
-                  {menuicon:'icon ion-social-twitter'},
-                  {menuicon:'icon ion-social-facebook'}, 
-                  {menuicon:'icon ion-social-googleplus'}, 
-                  {menuicon:'icon ion-social-github'},
-                  {menuicon:'icon ion-social-whatsapp-outline'},
-                  {menuicon:'icon ion-social-buffer-outline'},
-                  {menuicon:'icon ion-social-windows'}, 
-                  {menuicon:'icon ion-social-html5'}
-             
-                  ]
-    
-            }*/
+          
 
                   $scope.menufun = function(index){
                   $scope.menuFunHandler({data:index});        
