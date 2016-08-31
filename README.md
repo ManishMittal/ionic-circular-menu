@@ -26,8 +26,8 @@ Include `circular-menu.js` in your index.html:
 Include `menu.scss` in your ionic.app.scss:
 Include `ionic-icon.scss` in your ionic.app.scss:
 ```html
-@import "www/lib/ionic-speed-dial/src/scss/menu.scss"
-@import "www/lib/ionic-speed-dial/src/scss/ionic-icon.scss"
+@import "www/lib/ionic-circular-menu/src/scss/menu.scss"
+@import "www/lib/ionic-circular-menu/src/scss/ionic-icon.scss"
 
 
 ```
