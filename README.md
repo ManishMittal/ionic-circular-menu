@@ -52,7 +52,8 @@ For this to work the following conditions must apply:
 * The element you use this directive must be clickable.
 * The directive requires an inner attribute "menuHander" to be set on the element to manage the menu item click events.
 * The directive expects an inner attribute "config" to define the basic configuration .
-*If image will be present icon tag does not show ,otherwise icon will be load by default.
+* If image will be present icon tag does not show ,otherwise icon will be load by default .
+
 Add the below directive to your template file. 
 ```
 <circle menuFunHandler="menuHander(data);" config="circularMenuConfig"></circle>
@@ -67,17 +68,17 @@ Example of config and event override of menu  in controller.
  $scope.circularMenuConfig ={
     status:true,
    submenus:[
-   {menuicon:'icon ion-social-twitter',img:'img/twitter.png'},
+   {menuicon:'icon ion-social-twitter',img:'image file path'},
   
-    {menuicon:'',img:'img/facebook.png'}, 
+    {menuicon:'icon ion-social-facebook',img:''}, 
    
    {menuicon:'icon ion-social-googleplus',img:''}, 
    
-   {menuicon:'icon ion-social-github',img:'img/github.png'},
-   {menuicon:'icon ion-social-whatsapp-outline',img:'img/   whatsapp.png'},
-   {menuicon:'icon ion-social-buffer-outline',img:'img/buffer.png'},
-   {menuicon:'icon ion-social-windows',img:'img/window.png'}, 
-   {menuicon:'icon ion-social-html5',img:'img/html.png'}
+   {menuicon:'icon ion-social-github',img:''},
+   {menuicon:'icon ion-social-whatsapp-outline',img:''},
+   {menuicon:'icon ion-social-buffer-outline',img:''},
+   {menuicon:'icon ion-social-windows',img:''}, 
+   {menuicon:'icon ion-social-html5',img:''}
 
    ]
 
