@@ -1,12 +1,12 @@
 # ionic-circular-menu
 
-Sass based Animted and Fully Dynamic  Menus for ionic platform.
+Sass based Animted and Fully dynamic circular Menu for ionic platform.
 
 ## Features
 
 * Multiple submenus
 * Mange the click events of submenus
-* Dynamic ionic icons and or Images
+* Dynamic ionic icons and\ or Images
  
 ## Usage
 
@@ -22,11 +22,11 @@ Include `circular-menu.js` in your index.html:
 
 <script src="lib/ionic-circular-menu/src/js/circular-menu.js"></script>
 ```
-Include `menu.scss` in your ionic.app.scss:
-Include `ionic-icon.scss` in your ionic.app.scss:
+Include `menu.scss` and `ionic-icon.scss`  in your ionic.app.scss: 
+
 ```html
-@import "www/lib/ionic-circular-menu/src/scss/menu.scss"
-@import "www/lib/ionic-circular-menu/src/scss/ionic-icon.scss"
+@import "www/lib/ionic-circular-menu/src/scss/menu"
+@import "www/lib/ionic-circular-menu/src/scss/ionic-icon"
 
 
 ```
@@ -37,6 +37,10 @@ Add the module `ionic-circular-menu` to your application dependencies in your ap
 angular.module('starter', ['ionic', 'starter.controllers','ionic-circular-menu'])
 
 ```
+
+## Usage: ionic-circular-menu
+
+![Alt ion-circular-menu](/image/ion-circular-menu.png?raw=true)
 
 And you're ready to go.
 
@@ -59,8 +63,15 @@ Add the below directive to your template file.
 ```
 #### Config
 * __status__: Menu open or close status [true/false]
-
 * __submenus__: Submenu objects separated by comma for sub items  . e.g`submenus:[ {menuicon:'icon ion-social-twitter',img:'img/twitter.png'}, {menuicon:'icon ion-social-facebook',img:'img/facebook.png'}]`
+
+
+## Usage: ion-circular-menu
+
+![Alt ion-circular-menu](/image/screen_01.png)
+![Alt ion-circular-menu](/image/screen_02.png)
+
+
 
 Example of config and event override of menu  in controller.
 ```
