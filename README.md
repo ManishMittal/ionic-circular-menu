@@ -10,12 +10,13 @@ Sass based Animted and Fully dynamic circular Menu for ionic platform.
  
 ## Usage
 
+![Alt ion-circular-menu](/src/image/screen_01.png)
+![Alt ion-circular-menu](/src/image/screen_02.png)
+
 Get the files from github or install from bower:
 ```
 bower install ionic-circular-menu
 ```
-
-
 Include `circular-menu.js` in your index.html:
 
 ```html
@@ -37,10 +38,6 @@ Add the module `ionic-circular-menu` to your application dependencies in your ap
 angular.module('starter', ['ionic', 'starter.controllers','ionic-circular-menu'])
 
 ```
-
-## Usage: ionic-circular-menu
-
-![Alt ion-circular-menu](/src/image/ion-circular-menu.png?raw=true)
 
 And you're ready to go.
 
@@ -64,14 +61,6 @@ Add the below directive to your template file.
 #### Config
 * __status__: Menu open or close status [true/false]
 * __submenus__: Submenu objects separated by comma for sub items  . e.g`submenus:[ {menuicon:'icon ion-social-twitter',img:'img/twitter.png'}, {menuicon:'icon ion-social-facebook',img:'img/facebook.png'}]`
-
-
-## Usage: ion-circular-menu
-
-![Alt ion-circular-menu](/src/image/screen_01.png)
-![Alt ion-circular-menu](/src/image/screen_02.png)
-
-
 
 Example of config and event override of menu  in controller.
 ```
