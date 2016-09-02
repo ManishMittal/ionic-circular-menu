@@ -1,14 +1,13 @@
 # ionic-circular-menu
 
-Sass based Animted Circular Menus for ionic platform.
+Sass based Animted and Fully Dynamic  Menus for ionic platform.
 
 ## Features
 
 * Multiple submenus
 * Mange the click events of submenus
-* Dynamic ionic icons
-
-
+* Dynamic ionic icons and or Images
+ 
 ## Usage
 
 Get the files from github or install from bower:
@@ -31,7 +30,7 @@ Include `ionic-icon.scss` in your ionic.app.scss:
 
 
 ```
-Add the module `ionic-circular-menu` to your application dependencies in your app.js:
+Add the module `ionic-circular-menu` to your application dependencies in your app.js
 
 ```javascript
 
