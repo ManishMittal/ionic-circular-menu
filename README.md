@@ -40,7 +40,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ionic-circular-menu']
 
 ## Usage: ionic-circular-menu
 
-![Alt ion-circular-menu](/image/ion-circular-menu.png?raw=true)
+![Alt ion-circular-menu](/src/image/ion-circular-menu.png?raw=true)
 
 And you're ready to go.
 
@@ -68,8 +68,8 @@ Add the below directive to your template file.
 
 ## Usage: ion-circular-menu
 
-![Alt ion-circular-menu](/image/screen_01.png)
-![Alt ion-circular-menu](/image/screen_02.png)
+![Alt ion-circular-menu](/src/image/screen_01.png)
+![Alt ion-circular-menu](/src/image/screen_02.png)
 
 
 
