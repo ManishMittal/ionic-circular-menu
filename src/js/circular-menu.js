@@ -30,10 +30,11 @@ angular.module('ionic-circular-menu', [])
 
       },
 
-        template : '<div class="m">' 
+        template : '<div class=cicular_wrapper>'
+        +'<div class="m">' 
         +'<div class="btn trigger" ng-click="toglefun()"><span class="line" ></span></div>'
         +'<div class="rotater" ng-repeat="imageObj in config.submenus" ng-click="menufun($index+1);"><div class="btn btn-icon"><i ng-if="!imageObj.img" class="{{imageObj.menuicon}}"></i><img ng-src="{{imageObj.img}}"> </img></div></div>'
-     
+		+'</div>'
         +'</div>',
         replace:true
     };
